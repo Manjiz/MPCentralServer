@@ -1,0 +1,28 @@
+{
+  "name": "MPCentralServer",
+  "version": "1.0.0",
+  "description": "微信中控服务器（MP Central Server）",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development node ./src/index.js",
+    "start": "cross-env NODE_ENV=production node ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "config": "^1.30.0",
+    "crypto": "^1.0.1",
+    "js-yaml": "^3.11.0",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "lru-cache": "^4.1.2",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.4"
+  },
+  "engines": {
+    "node": ">= 7.10.1"
+  }
+}

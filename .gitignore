@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+
+# important
+config/development.yml
+config/production.yml

@@ -1,0 +1,10 @@
+# port
+port: 3001
+
+# whieList
+whiteList: ['localhost', '127.0.0.1']
+
+# wechat
+wechat:
+  APP_ID: ----
+  APP_SECRET: ----
